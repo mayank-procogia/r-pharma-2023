@@ -1,0 +1,56 @@
+/*-- scss:defaults --*/
+$theme-darkblue: #01364C;
+$theme-blue: #99D9DD;
+$theme-white: #F7F8F9;
+$theme-yellow: #F4BA02;
+
+/*-- ProCogia Marketing Colors --*/
+$theme-procogia-primary-1: #344E55;
+$theme-procogia-primary-2: #B39F8C;
+$theme-procogia-primary-3: #31726D;
+
+$theme-procogia-secondary-1: #7EA5B0;
+$theme-procogia-secondary-2: #5E5E5E;
+$theme-procogia-secondary-3: #A9A9A9;
+
+/*-- ProCogia Colors Fix for high readability --*/
+$theme-procogia-primary-fix-1: #2D4349;
+$theme-pure-white: #FFFFFF;
+$theme-procogia-heading-yellow: #FFFFA8;
+
+
+/*-- import ProCogia Fonts - Spartan and Raleway --*/
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300&family=Raleway:wght@100;200;300;400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300&display=swap');
+
+
+
+/*-- Over ride quarto defaults --*/
+/*-- Colors --*/
+$body-bg: $theme-procogia-primary-fix-1;
+$body-color: $theme-white;
+$link-color: $theme-procogia-primary-2;
+$presentation-heading-color: $theme-procogia-heading-yellow;
+
+/*-- Fonts --*/
+$font-family-sans-serif: 'Spartan', sans-serif;
+$presentation-heading-font: 'Raleway', serif;
+
+
+/*-- scss:rules --*/
+
+.blue {
+  color: $theme-blue;
+  font-weight: bold;
+}
+
+.yellow {
+  color: $theme-yellow;
+  font-weight: bold;
+}
+
+.reveal .slide a {
+  text-decoration: underline;
+}
+
