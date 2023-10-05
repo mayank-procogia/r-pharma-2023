@@ -61,7 +61,7 @@ resulting in
 
 -   Manual processes
 -   Lengthy simulation times
--   Scalability tonstraints
+-   Scalability constraints
 -   Limited collaboration
 -   Reporting challenges
 -   Flexibility
