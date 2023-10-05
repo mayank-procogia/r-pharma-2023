@@ -88,7 +88,7 @@ resulting in
 -   Enhanced workflow efficiency and productivity among biostats team
 :::
 
-![](data/logo_route.png){.absolute bottom="8rem" right="0" height="200"}
+![](data/logo_route.png){.absolute bottom="4rem" right="0" height="175"}
 
 ------------------------------------------------------------------------
 
