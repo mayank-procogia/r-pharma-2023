@@ -322,8 +322,8 @@ resulting in
 
 ## Thank you
 
--   Quarto presentation code available on [GitHub](https://github.com/mayank-procogia/r-pharma-2023){target="_blank"} at [http://bit.ly/3ZHZTNf](http://bit.ly/3ZHZTNf){target="_blank"}
--   Slides available on [GitHub Pages](https://github.com/mayank-procogia/r-pharma-2023/enhancing_workflow_efficiency_of_bio_stats.html){target="_blank"} at [https://bit.ly/3RsdExn](https://bit.ly/3RsdExn){target="_blank"}
+-   Quarto presentation code available on [GitHub](https://github.com/mayank-procogia/r-pharma-2023){target="_blank"} at [https://bit.ly/github-r-pharma-2023](https://bit.ly/github-r-pharma-2023){target="_blank"}
+-   Slides available on [GitHub Pages](https://mayank-procogia.github.io/r-pharma-2023/){target="_blank"} at [https://bit.ly/r-pharma-2023](https://bit.ly/r-pharma-2023){target="_blank"}
 -   Connect and/or send me a DM for a follow up question or catch up
     -   Linkedin: [mayank-agrawal-7jan](https://www.linkedin.com/in/mayank-agrawal-7jan/){target="_blank"}
     -   X (previously Twitter): [mayank7jan](https://twitter.com/mayank7jan){target="_blank"}
