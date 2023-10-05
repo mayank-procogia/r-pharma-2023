@@ -24,10 +24,10 @@ self-contained: true
 -   Background: Computer Science Engineer and MBA in Business Analytics.
 -   Curious to learn.
 -   Using R and R Shiny for 6+ years.
--   Architected, built and managed more than 40+ R Shiny applications and dashboards.
+-   Designed, built and managed more than 40+ R Shiny applications and dashboards.
 -   Built and led teams of 10+ R developers.
 -   Trained 30+ colleagues on R from diverse backgrounds.
--   Have extensive hands on experience on all flavors of R products - Shiny, R Markdowns, Quarto, and Package development.
+-   Extensive hands on experience on all flavors of R products - Shiny, R Markdowns, Quarto, and package development.
 -   Working with [**ProCogia**](https://procogia.com/){target="_blank"}; an Official [full service partner](https://posit.co/certified-partners/){target="_blank"} with Posit.
 
 ![](data/logo_hi.png){.absolute bottom="2rem" right="0" height="200"}
@@ -41,35 +41,31 @@ Clinical Trails are often complex and time consuming with repeated similar workf
 ::: columns
 ::: {.column width="50%"}
 ::: fragment
-
 This often leads to
 
--   Delayed Analysis and reporting,
--   longer on-boarding time, and
+-   Delayed Analysis and reporting
+-   Longer on-boarding time
 -   Delayed Time to Market
 
 resulting in
 
--   hindered workflow,
--   lower productivity, and
--   repeated boring processes.
-
+-   Hindered workflows
+-   Lower productivity
+-   Repeated boring processes
 :::
 :::
 
 ::: {.column width="50%"}
 ::: fragment
-
 #### Key Issues
 
--   Manual Processes
--   Lengthy Simulation Times
--   Scalability Constraints
--   Limited Collaboration
--   Reporting Challenges
--   Flexibility and
+-   Manual processes
+-   Lengthy simulation times
+-   Scalability tonstraints
+-   Limited collaboration
+-   Reporting challenges
+-   Flexibility
 -   Reproducibility
-
 :::
 :::
 :::
@@ -80,27 +76,23 @@ resulting in
 
 ## Solution
 
-**Empowering Bio Statisticians with R Shiny Suite of applications**
+**Empowering Biostatisticians with R Shiny suite of applications**
 
 ::: incremental
-
--   Collaborated with Bio Stats to understand their pain points and challenges.
+-   Collaborated with Biostats to understand their pain points and challenges.
 -   Developed a basic R Shiny app (MVP) for dosage simulation.
--   Expanded it into a full-blown enterprise application, iteratively.
--   Created multiple targeted R Shiny apps for different workflows.
--   Developed an ecosystem of Bio Statistics R Shiny suite of applications.
--   Streamlined processes and optimized workflows.
--   Automated tasks and improved reporting.
--   Enhanced workflow efficiency.
--   Maximized productivity for the Bio Statistician team.
-
+-   Fully scaled through an iterative process of development and feedback
+-   Created multiple R Shiny apps targetted to specific workflows.
+-   Developed an ecosystem of Biostatistics R Shiny applications
+-   Automated and improved reporting.
+-   Enhanced workflow efficiency and productivity among biostats team
 :::
 
-![](data/logo_route.png){.absolute bottom="5rem" right="0" height="200"}
+![](data/logo_route.png){.absolute bottom="8rem" right="0" height="200"}
 
 ------------------------------------------------------------------------
 
-## How does the journey look like to make this a success?
+## What was the journey to success?
 
 ![](data/img_car_journey.jpg){fig-align="center"}
 
@@ -108,8 +100,8 @@ resulting in
 
 ## Migration Process Steps
 
--   Define Scope of each process.
--   Analyze <span style="text-decoration:underline">repetition rate</span>, <span style="text-decoration:underline">importance</span>, and <span style="text-decoration:underline">time investment</span> for each work request.
+-   Define scope of each process.
+-   Document [repetition rate]{style="text-decoration:underline"}, [importance]{style="text-decoration:underline"}, and [time investment]{style="text-decoration:underline"} for each work request.
 -   Identify the most time-consuming, yet simplest workflow.
 -   Develop a **MVP** (Minimum Viable Product)
     -   Showcase a demo with the smallest workflow.
@@ -120,16 +112,16 @@ resulting in
 
 ------------------------------------------------------------------------
 
-## Engage with the Bio Stats Team
+## Engage with the Biostats team
 
--   Weekly connects with Bio Stats to ensure that the MVP build is on the right track.
+-   Weekly feedback sessions with biostats team and other stakeholders
 -   Adopt **Agile methodology** for faster iterative improvement and development.
--   Actively listen to user (Bio Stats) feedback and take "notes".
+-   Procatively address feedback from from end users
     -   Prioritize features based on complexity, time, effort and need.
-    -   Pro-actively research and pick up features from the end of the task list in free time to keep developers engaged and happy.
+    -   Research and address suggested features to keep developers and users engaged and happy.
 -   Utilize GitHub Issues to document feature requests or bug fixes.
-    -   A picture speaks a thousand words. If it can be explained with a **screenshot**, don't shy away.
--   Ensure commits are linked with respective issues for traceability during testing.
+    -   Ensure commits are linked with respective issues for traceability during testing.
+-   A picture speaks a thousand words. If it can be explained with a **screenshot**, don't shy away.
 -   Establish clear requirements to expedite implementation, with developer input on the overall app workflow.
 
 ------------------------------------------------------------------------
@@ -140,7 +132,7 @@ resulting in
     -   Prototype the UI layout using [draw.io](draw.io){target="_blank"} or similar tools.
     -   Use conditional panels, modules, and well-designed layouts to create a user-friendly interface.
     -   Iterate rapidly to test how different implementations enhance UI/UX.
--   Establish a standard application/dashboard template layout such as [Shiny Dashboard](https://rstudio.github.io/shinydashboard/){target='_blank'}, [bslib](https://rstudio.github.io/bslib/){target='_blank'} and/or [bs4Dash](https://rinterface.github.io/bs4Dash/index.html){target='_blank'}.
+-   Establish a standard application/dashboard template layout such as [Shiny Dashboard](https://rstudio.github.io/shinydashboard/){target="_blank"}, [bslib](https://rstudio.github.io/bslib/){target="_blank"} and/or [bs4Dash](https://rinterface.github.io/bs4Dash/index.html){target="_blank"}.
     -   Create custom R function wrappers based on organization theme and color layout.
     -   Re-use the template for new builds and ideas to maintain consistency and coherence.
 
@@ -149,12 +141,11 @@ resulting in
 ## Principles of Application Design
 
 -   Define the **flow of reactivity** for the overall application/dashboard.
-    -   One of my favorites is to use the **Waterfall Reactivity Model**.
-    -   Helps to avoid **Reactivity Spaghetti Mess**
-    -   Avoid cluttered and confusing reactivity paths.
-    -   Leverage Shiny's reactivity to update UI elements dynamically based on user input. This enhances interactivity and responsiveness.
+    -   **Waterfall Reactivity Model**.
+    -   Avoid **Reactivity Spaghetti Mess**
+    -   Leverage reactive UI elements based on user input. This enhances interactivity and responsiveness.
 -   Provide default selections for input widgets, enabling users to explore and understand the application easily.
--   Prioritize user-friendliness; if it's not intuitive, it won't be used.
+-   Prioritize user-friendliness: if it's not intuitive, it won't be used.
 -   Incorporate "tooltips", "notifications", section write-ups and clear instructions to guide users in using the application.
 
 ------------------------------------------------------------------------
@@ -163,19 +154,15 @@ resulting in
 
 ::: columns
 ::: {.column width="50%"}
-
 -   Maintain a clear and logical directory structure.
 -   Group related files together for easy navigation.
--   Create, Adopt and Enforce a standard development template for easier developer onboarding and faster development.
--   Have a project template repository for initial cloning and usage.
+-   Create, adopt and enforce a standard development template for easier developer onboarding.
+-   Have a project template repository for initial cloning.
 -   Please refer to the right image for an illustrative R project directory structure.
-
 :::
 
 ::: {.column width="50%"}
-
 ![](data/ss_rstudio_dir_tree.png){fig-align="center"}
-
 :::
 :::
 
@@ -220,7 +207,7 @@ resulting in
     -   KISS (Keep it Simple Silly)
     -   Document your code for humans.
     -   Prioritize clean code at all times.
-    -   Separation of Concerns.
+    -   Separation of concerns.
 
 ![](data/logo_idea.png){.absolute bottom="50" right="0" height="200"}
 
@@ -228,9 +215,8 @@ resulting in
 
 ## Facilitate Consistent Reporting
 
-:::: columns
+::: columns
 ::: {.column width="50%"}
-
 -   Utilize **parameterized markdown** reports for dynamic MS Word report generation within the application.
 -   Adhere to the organization's document template for uniformity in reporting.
 -   Ensure each page or process has a predefined standard write-up with dynamic bits/sections based on simulation calculations.
@@ -239,7 +225,7 @@ resulting in
 ::: {.column width="50%"}
 ![](data/img_reporting.jpg){fig-align="center"}
 :::
-::::
+:::
 
 ------------------------------------------------------------------------
 
@@ -250,7 +236,7 @@ resulting in
     -   Provides a controlled environment for your project.
     -   Ensure reproducibility and minimize version conflicts.
 -   Rely on packages published and actively maintained on **CRAN** for a validated R environment.
--   Establish unit tests for every Bio Stats function used to ensure accurate and consistent results.
+-   Establish unit tests for all functions used to ensure accurate and consistent results.
 -   Invest time to create an in-depth GitHub ReadMe with the sections **Project Overview**, **Getting Started**, **User Application Flow and Usage**, **Key Programming Concept Implemented** (if any) and **Developer Guide** providing comprehensive project reproducibility instructions.
 
 ------------------------------------------------------------------------
@@ -259,7 +245,7 @@ resulting in
 
 -   Implement **modularization** and **functional programming** for a **plug-and-play** development format across applications.
 -   Enable multiple studies to be added concurrently using standard **git branching strategies**, involving multiple concurrent developers.
--   **Async Programming**: Evaluate longer simulations in a **separate R process** to keep the current R process running the shiny application free for use, preventing app performance issues.
+-   **Async Programming**: Evaluate longer simulations in a **separate R process** preventing app performance issues.
     -   Few R packages to aid this are: [callr](https://github.com/r-lib/callr/){target="_blank"}, [mirai](https://github.com/shikokuchuo/mirai){target="_blank"}, [crew](https://github.com/wlandau/crew){target="_blank"}, [coro](https://github.com/r-lib/coro){target="_blank"}, [future](https://github.com/HenrikBengtsson/future){target="_blank"} and [promises](https://github.com/rstudio/promises/){target="_blank"}
 -   Take a step further and deploy simulation functions as internal APIs with **Plumber**.
 -   Write your **custom JavaScript and R bindings** for implementing unique feature requests.
@@ -269,10 +255,9 @@ resulting in
 
 ## Utilize Automated Testing
 
-:::: columns
+::: columns
 ::: {.column width="50%"}
 ::: fragment
-
 -   Writing Test Cases (Inputs, Expected Outputs)
 -   Full Stack Testing
     -   [testthat](https://github.com/r-lib/testthat/){target="_blank"} for back-end testing,
@@ -280,32 +265,29 @@ resulting in
     -   [shinyloadtest](https://github.com/rstudio/shinyloadtest/){target="_blank"} for load testing.
 -   Types of Tests: **Unit**, **Functional**, **Integration**, and **End-to-End**
 -   Continuous Integration for Testing with Git branching strategies.
-
 :::
 :::
 
 ::: {.column width="50%"}
 ::: fragment
-
 -   Benefits
-    -   Early Bug Detection
-    -   Efficiency and Speed
-    -   Consistent and Repeatable Testing
-    -   Increased Test Coverage
-    -   Regression Testing Capabilities
-    -   Greater Confidence in Release Stability
-
+    -   Early bug detection
+    -   Efficiency and speed
+    -   Consistent and repeatable testing
+    -   Increased test coverage
+    -   Regression testing capabilities
+    -   Greater confidence in release stability
 :::
 :::
-::::
+:::
 
 ------------------------------------------------------------------------
 
 ## Common Application Features
 
--   Download **visualization** from any part of the application.
--   Access downloadable interim **simulation calculations** for each process, aiding in simulation fine-tuning.
--   Download **dynamically** rendered MS Word **report** with FDA submission format for faster review and iterative changes.
+-   Download any **visualization** from the application.
+-   Access downloadable interim **simulation calculations** , aiding in simulation fine-tuning.
+-   Download **dynamically** rendered MS Word **reports** with FDA submission format for faster review and iterative changes.
 -   Add and execute multiple simulations simultaneously for efficiency.
     -   **Compare** similar graphs side by side for comprehensive analysis across all simulations.
     -   Generate dynamic **grouped plots** based on the sequence of simulations requested.
@@ -353,7 +335,7 @@ resulting in
 
 ## References - R Packages
 
--   [shinyDashboard](https://rstudio.github.io/shinydashboard/){target="_blank"}, [bslib](https://rstudio.github.io/bslib/){target='_blank'},  [bs4dash](https://rinterface.github.io/bs4Dash/index.html){target="_blank"} for standard dashboard template.
+-   [shinyDashboard](https://rstudio.github.io/shinydashboard/){target="_blank"}, [bslib](https://rstudio.github.io/bslib/){target="_blank"}, [bs4dash](https://rinterface.github.io/bs4Dash/index.html){target="_blank"} for standard dashboard template.
 -   [rmarkdown](https://github.com/rstudio/rmarkdown){target="_blank"} and [Quarto](https://quarto.org/docs/computations/r.html){target="_blank"} for parameterized reporting.
 -   [renv](https://rstudio.github.io/renv/articles/renv.html){target="_blank"} for package management in a R project.
 -   [glue](https://glue.tidyverse.org/){target="_blank"} for interpreted string literals for dynamic reporting.
