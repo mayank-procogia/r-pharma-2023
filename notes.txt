@@ -1,0 +1,17 @@
+## Phase 2 Trails
+
+"Does Drug X improve Disease Y?"
+  "What quantity of Drug X works better on Disease Y, (1 mg, 2 mg or 3 mg)?" and 
+  "Does Drug X work better on Disease Y taken once or twice a day?"
+
+Phase 2a: These trials involve fewer patients, typically 100 to 300, and focus on 
+    -   **dose-response relationships**: How increasing dosage increments correlates to increase in response, and
+    -   **optimal dosing frequency**: The ideal schedule for administering a treatment to achieve the best results while minimizing side effects.
+
+
+
+-   Use RStudio Projects
+    -   Isolates your development environment.
+    -   Relative path referencing for your project files.
+    -   Segregate development flow and context.
+    
