@@ -1,24 +1,24 @@
 [
   {
-    "objectID": "enhancing_workflow_efficiency_of_bio_stats.html#hello-there",
-    "href": "enhancing_workflow_efficiency_of_bio_stats.html#hello-there",
+    "objectID": "enhancing_workflow_efficiency_of_bio_stats.html#phase-2-trails",
+    "href": "enhancing_workflow_efficiency_of_bio_stats.html#phase-2-trails",
     "title": "Enhancing Efficiency and Workflow of Bio Statistics Teams",
-    "section": "Hello there!",
-    "text": "Hello there!\n\nBackground: Computer Science Engineer and MBA in Business Analytics.\nCurious to learn.\nUsing R and R Shiny for 6+ years.\nDesigned, built and managed more than 40+ R Shiny applications and dashboards.\nBuilt and led teams of 10+ R developers.\nTrained 30+ colleagues on R from diverse backgrounds.\nExtensive hands on experience on all flavors of R products - Shiny, R Markdowns, Quarto, and package development.\nWorking with ProCogia; an Official full service partner with Posit."
+    "section": "Phase 2 Trails",
+    "text": "Phase 2 Trails\n\nA Phase 2 trial answers the question, “Does Drug X improve Disease Y?”\n\n\n\nPhase 2 clinical trials assess the safety and efficacy of a new drug or drug combination for a specific medical condition.\nGoal: Determine appropriate dose and treatment plan for Phase 3 testing.\nPhase 2a: Involves fewer patients, generally 100-300 patients to focus on dose-response relationships and optimal dosing frequency.\nPhase 2b: Rigorously assesses drug’s effectiveness in disease treatment, prevention, or diagnosis.\nAssess therapeutic effectiveness in a specific patient group for potential Phase 3 study.\nAlso used to assess and review safety parameters for potential adverse events that might have been missed in a particular patient group."
   },
   {
-    "objectID": "enhancing_workflow_efficiency_of_bio_stats.html#current-challenges",
-    "href": "enhancing_workflow_efficiency_of_bio_stats.html#current-challenges",
+    "objectID": "enhancing_workflow_efficiency_of_bio_stats.html#challenges",
+    "href": "enhancing_workflow_efficiency_of_bio_stats.html#challenges",
     "title": "Enhancing Efficiency and Workflow of Bio Statistics Teams",
-    "section": "Current Challenges",
-    "text": "Current Challenges\nClinical Trails are often complex and time consuming with repeated similar workflow steps for each new variation of the trail.\n\n\n\nThis often leads to\n\nDelayed Analysis and reporting\nLonger on-boarding time\nDelayed Time to Market\n\nresulting in\n\nHindered workflows\nLower productivity\nRepeated boring processes\n\n\n\n\n\nKey Issues\n\nManual processes\nLengthy simulation times\nScalability constraints\nLimited collaboration\nReporting challenges\nFlexibility\nReproducibility"
+    "section": "Challenges",
+    "text": "Challenges\nDose Simulations for Phase 2 trails are often complex and time consuming with repeated similar workflow steps for each new variation of the dosage trail.\n\n\n\nThis often leads to\n\nDelayed Analysis and reporting\nLonger study time (years)\nDelayed Time to Market\n\nresulting in\n\nHindered workflows\nLower productivity\nRepeated boring processes\n\n\n\n\n\nKey Issues\n\nManual processes\nLengthy simulation times\nScalability constraints\nLimited collaboration\nReporting challenges\nFlexibility\nReproducibility"
   },
   {
     "objectID": "enhancing_workflow_efficiency_of_bio_stats.html#solution",
     "href": "enhancing_workflow_efficiency_of_bio_stats.html#solution",
     "title": "Enhancing Efficiency and Workflow of Bio Statistics Teams",
     "section": "Solution",
-    "text": "Solution\nEmpowering Biostatisticians with R Shiny suite of applications\n\n\nCollaborated with Biostats to understand their pain points and challenges.\nDeveloped a basic R Shiny app (MVP) for dosage simulation.\nFully scaled through an iterative process of development and feedback\nCreated multiple R Shiny apps targetted to specific workflows.\nDeveloped an ecosystem of Biostatistics R Shiny applications\nAutomated and improved reporting.\nEnhanced workflow efficiency and productivity among biostats team"
+    "text": "Solution\nEmpowering Biostatisticians with R Shiny suite of applications\n\n\nCollaborated with Biostats to understand their pain points and challenges.\nDeveloped a R Shiny application for Phase 2 trails of dosage simulation.\nFully scaled through an iterative process of Agile development and feedback.\nCreated multiple R Shiny apps targetted to specific workflows.\nDeveloped an ecosystem of Biostatistics R Shiny applications.\nAutomated and improved reporting.\nEnhanced workflow efficiency and productivity among biostats team."
   },
   {
     "objectID": "enhancing_workflow_efficiency_of_bio_stats.html#what-was-the-journey-to-success",
@@ -35,60 +35,32 @@
     "text": "Migration Process Steps\n\nDefine scope of each process.\nDocument repetition rate, importance, and time investment for each work request.\nIdentify the most time-consuming, yet simplest workflow.\nDevelop a MVP (Minimum Viable Product)\n\nShowcase a demo with the smallest workflow.\nThis aids leaders in visualizing the impact of approval.\n\nIntegrate workflows incrementally from small to large."
   },
   {
-    "objectID": "enhancing_workflow_efficiency_of_bio_stats.html#engage-with-the-biostats-team",
-    "href": "enhancing_workflow_efficiency_of_bio_stats.html#engage-with-the-biostats-team",
+    "objectID": "enhancing_workflow_efficiency_of_bio_stats.html#why-shiny",
+    "href": "enhancing_workflow_efficiency_of_bio_stats.html#why-shiny",
     "title": "Enhancing Efficiency and Workflow of Bio Statistics Teams",
-    "section": "Engage with the Biostats team",
-    "text": "Engage with the Biostats team\n\nWeekly feedback sessions with biostats team and other stakeholders\nAdopt Agile methodology for faster iterative improvement and development.\nProcatively address feedback from from end users\n\nPrioritize features based on complexity, time, effort and need.\nResearch and address suggested features to keep developers and users engaged and happy.\n\nUtilize GitHub Issues to document feature requests or bug fixes.\n\nEnsure commits are linked with respective issues for traceability during testing.\n\nA picture speaks a thousand words. If it can be explained with a screenshot, don’t shy away.\nEstablish clear requirements to expedite implementation, with developer input on the overall app workflow."
+    "section": "Why Shiny?",
+    "text": "Why Shiny?\n\nHelps to build interactive web apps straight from R.\nShiny offers dynamic filtering, enabling instant analysis and visualization of data.\nShiny is compatible for generating Tables, Listings, and Graphs (TLGs).\nEnables efficient visualization of complex clinical trial data.\nAllows for easy exploration of various dosage scenarios.\nSupports seamless collaboration among trial stakeholders.\nEnables real-time updates, crucial for adapting to evolving trial needs.\nIts interactive features enhance decision-making and adaptability for evolving trial needs in Phase 2 trials.\nShiny has a quick to moderate learning curve."
   },
   {
     "objectID": "enhancing_workflow_efficiency_of_bio_stats.html#principles-of-application-design",
     "href": "enhancing_workflow_efficiency_of_bio_stats.html#principles-of-application-design",
     "title": "Enhancing Efficiency and Workflow of Bio Statistics Teams",
     "section": "Principles of Application Design",
-    "text": "Principles of Application Design\n\nThink about creating and showcasing dashboard outlines in the early discussions.\n\nPrototype the UI layout using draw.io or similar tools.\nUse conditional panels, modules, and well-designed layouts to create a user-friendly interface.\nIterate rapidly to test how different implementations enhance UI/UX.\n\nEstablish a standard application/dashboard template layout such as Shiny Dashboard, bslib and/or bs4Dash.\n\nCreate custom R function wrappers based on organization theme and color layout.\nRe-use the template for new builds and ideas to maintain consistency and coherence."
+    "text": "Principles of Application Design\n\n\nShowcase early application design outlines using draw.io for UI layout prototyping.\n\n\n\n\nEstablish a standard application template layout using either Shiny Dashboard, bslib and/or bs4Dash.\n\nCreate custom R function wrappers based on organization theme and color layout.\nRe-use the template for new builds and ideas to maintain consistency and coherence.\n\n\n\n\n\nDefine the flow of reactivity for the overall application/dashboard.\n\nWaterfall Reactivity Model.\nAvoid Reactivity Spaghetti Mess\nLeverage reactive dynamic UI elements based on user input to enhance interactivity and responsiveness."
   },
   {
     "objectID": "enhancing_workflow_efficiency_of_bio_stats.html#principles-of-application-design-1",
     "href": "enhancing_workflow_efficiency_of_bio_stats.html#principles-of-application-design-1",
     "title": "Enhancing Efficiency and Workflow of Bio Statistics Teams",
     "section": "Principles of Application Design",
-    "text": "Principles of Application Design\n\nDefine the flow of reactivity for the overall application/dashboard.\n\nWaterfall Reactivity Model.\nAvoid Reactivity Spaghetti Mess\nLeverage reactive UI elements based on user input. This enhances interactivity and responsiveness.\n\nProvide default selections for input widgets, enabling users to explore and understand the application easily.\nPrioritize user-friendliness: if it’s not intuitive, it won’t be used.\nIncorporate “tooltips”, “notifications”, section write-ups and clear instructions to guide users in using the application."
-  },
-  {
-    "objectID": "enhancing_workflow_efficiency_of_bio_stats.html#organize-your-project-structure",
-    "href": "enhancing_workflow_efficiency_of_bio_stats.html#organize-your-project-structure",
-    "title": "Enhancing Efficiency and Workflow of Bio Statistics Teams",
-    "section": "Organize your project structure",
-    "text": "Organize your project structure\n\n\n\nMaintain a clear and logical directory structure.\nGroup related files together for easy navigation.\nCreate, adopt and enforce a standard development template for easier developer onboarding.\nHave a project template repository for initial cloning.\nPlease refer to the right image for an illustrative R project directory structure."
+    "text": "Principles of Application Design\n\n\nCreate smaller, independent Proof of Concepts (POCs) for new feature requests.\n\n\n\n\nPrioritize user-friendliness: if it’s not intuitive, it won’t be used.\n\nSet default selections for input widgets to make application exploration and understanding easier for users.\nIncorporate tooltips, notifications, sectional write-ups and clear instructions to guide users in using the application.\n\n\n\n\n\nFacilitate Consistent Reporting:\n\nUtilize parameterized Markdown/Quarto reports for dynamic MS Word report generation within the application.\nAdhere to the organization’s document template for uniformity in reporting.\nEnsure each page or process has a predefined standard write-up with dynamic bits/sections based on simulation calculations."
   },
   {
     "objectID": "enhancing_workflow_efficiency_of_bio_stats.html#streamline-workflow",
     "href": "enhancing_workflow_efficiency_of_bio_stats.html#streamline-workflow",
     "title": "Enhancing Efficiency and Workflow of Bio Statistics Teams",
     "section": "Streamline Workflow",
-    "text": "Streamline Workflow\n\nUse RStudio Projects\n\nIsolates your development environment.\nRelative path referencing for your project files.\nSegregate development flow and context.\n\nVersion Control with Git\n\nTrack changes, collaborate with team members, and manage project history effectively using Git.\nUse Issues, Pull Requests and Connected Commits for efficient and effortless parallel development."
-  },
-  {
-    "objectID": "enhancing_workflow_efficiency_of_bio_stats.html#shiny-development-tips",
-    "href": "enhancing_workflow_efficiency_of_bio_stats.html#shiny-development-tips",
-    "title": "Enhancing Efficiency and Workflow of Bio Statistics Teams",
-    "section": "Shiny Development Tips",
-    "text": "Shiny Development Tips\n\nEstablish and adhere to a standard file and code structure.\nImplement coding standards to facilitate seamless collaboration between Bio Statistics teams and R developers.\nEmphasize the use of functions and shiny modules whenever possible.\nOptimize Server logic via Profiling and performance tuning\n\nMinimize unnecessary computations and avoid redundant calculations.\nUse tools like profvis to identify performance bottlenecks and Optimize critical sections of your code for speed.\nUse benchmarking techniques to compare computation speeds of various packages. Refer R function rbenchmark::benchmark().\n\nCreate smaller, independent Proof of Concepts (POCs) for new feature requests.\n\nFor example, capture simulation attributes in a table and select them for subsequent runs."
-  },
-  {
-    "objectID": "enhancing_workflow_efficiency_of_bio_stats.html#shiny-development-tips-1",
-    "href": "enhancing_workflow_efficiency_of_bio_stats.html#shiny-development-tips-1",
-    "title": "Enhancing Efficiency and Workflow of Bio Statistics Teams",
-    "section": "Shiny Development Tips",
-    "text": "Shiny Development Tips\n\nDebugging like a pro\n\nDebug via browser(), debug(function_name), and debug points.\nSet breakpoints, step through code, and inspect variables to troubleshoot efficiently.\n\nApply standard software development principles:\n\nDRY (Don’t Repeat Yourself)\nYAGNI (You aren’t going to need it)\nKISS (Keep it Simple Silly)\nDocument your code for humans.\nPrioritize clean code at all times.\nSeparation of concerns."
-  },
-  {
-    "objectID": "enhancing_workflow_efficiency_of_bio_stats.html#facilitate-consistent-reporting",
-    "href": "enhancing_workflow_efficiency_of_bio_stats.html#facilitate-consistent-reporting",
-    "title": "Enhancing Efficiency and Workflow of Bio Statistics Teams",
-    "section": "Facilitate Consistent Reporting",
-    "text": "Facilitate Consistent Reporting\n\n\n\nUtilize parameterized markdown reports for dynamic MS Word report generation within the application.\nAdhere to the organization’s document template for uniformity in reporting.\nEnsure each page or process has a predefined standard write-up with dynamic bits/sections based on simulation calculations."
+    "text": "Streamline Workflow\n\n\n\n\nUse RStudio Projects\n\n\n\n\nVersion Control with Git\n\nUse Issues, Pull Requests and Connected Commits for efficient and effortless parallel development.\nA picture speaks a thousand words. If it can be explained with a screenshot, don’t shy away.\n\n\n\n\n\nOrganize your project structure\n\nGroup related files together for easy navigation.\nCreate, adopt and enforce a standard development template for easier developer onboarding.\nHave a project template repository for initial cloning."
   },
   {
     "objectID": "enhancing_workflow_efficiency_of_bio_stats.html#ensuring-reproducibility",
@@ -116,34 +88,27 @@
     "href": "enhancing_workflow_efficiency_of_bio_stats.html#common-application-features",
     "title": "Enhancing Efficiency and Workflow of Bio Statistics Teams",
     "section": "Common Application Features",
-    "text": "Common Application Features\n\nDownload any visualization from the application.\nAccess downloadable interim simulation calculations , aiding in simulation fine-tuning.\nDownload dynamically rendered MS Word reports with FDA submission format for faster review and iterative changes.\nAdd and execute multiple simulations simultaneously for efficiency.\n\nCompare similar graphs side by side for comprehensive analysis across all simulations.\nGenerate dynamic grouped plots based on the sequence of simulations requested.\n\nReceive email notifications to stay updated on the progress of lengthy simulations, along with attached reports."
-  },
-  {
-    "objectID": "enhancing_workflow_efficiency_of_bio_stats.html#common-application-features-1",
-    "href": "enhancing_workflow_efficiency_of_bio_stats.html#common-application-features-1",
-    "title": "Enhancing Efficiency and Workflow of Bio Statistics Teams",
-    "section": "Common Application Features",
-    "text": "Common Application Features\n\nInclude and display the underlying mathematical equation for a study or simulation on the user interface using LaTeX.\nReceive appropriate notifications upon completion of each process.\nHelper Tabs for - Application Information, Usage Manual, Release Tabs, Feedback and Contact Business Lead - all through the application.\n\nDistribute an updated User Manual in the quarterly release email and include it as a ‘User Manual’ tab within the application.\nFeature a ‘User Feedback’ tab for direct communication of feedback with the project manager via email.\nInclude a ‘Release Notes’ tab to display app changes over time, promoting transparency."
+    "text": "Common Application Features\n\n\nAdd and execute multiple simulations simultaneously.\nCompare similar (static and interactive) graphs side by side for comprehensive analysis.\n\n\n\n\nDownloadable visualization, simulation calculations, and dynamic FDA submission format reports across the application.\nDisplay mathematical equations for each study using LaTeX.\n\n\n\n\nReceive email notifications for progress updates along with attached reports.\nReceive notifications upon process completion.\n\n\n\n\nIntroduce Helper Tabs for - Application Information, Usage Manual, Release Notes, System Information, User Feedback and Contact Business Lead - all through the application."
   },
   {
     "objectID": "enhancing_workflow_efficiency_of_bio_stats.html#enhancing-user-adoption",
     "href": "enhancing_workflow_efficiency_of_bio_stats.html#enhancing-user-adoption",
     "title": "Enhancing Efficiency and Workflow of Bio Statistics Teams",
     "section": "Enhancing User Adoption",
-    "text": "Enhancing User Adoption\n\nCreate GIFs showcasing the application layout and user flow.\n\nInclude them in the Git readme and announcement emails.\n\nCreate detailed application interaction user manuals with screenshots and highlights for each step.\nConduct regular (quarterly) training sessions to provide guidance, answer questions, and assist users with new features.\n\nRecord and share them for easier re-visit.\n\nContinuously engage user base for better ROI and on boarding.\nPrioritize most requested user features for each sprint."
+    "text": "Enhancing User Adoption\n\n\nCreate multiple GIFs showcasing the application layout and user flow.\n\nInclude them in the Git readme and announcement emails.\n\nCreate detailed application interaction user manuals with screenshots and highlights for each step.\n\n\n\n\nConduct regular (quarterly) training sessions to provide guidance, answer questions, and assist users with new features.\n\nRecord and share them for easier re-visit.\n\n\n\n\n\nContinuously engage user base for better ROI and on boarding.\nPrioritize most requested user features for each sprint."
   },
   {
     "objectID": "enhancing_workflow_efficiency_of_bio_stats.html#thank-you",
     "href": "enhancing_workflow_efficiency_of_bio_stats.html#thank-you",
     "title": "Enhancing Efficiency and Workflow of Bio Statistics Teams",
     "section": "Thank you",
-    "text": "Thank you\n\nQuarto presentation code available on GitHub at https://bit.ly/github-r-pharma-2023\nSlides available on GitHub Pages at https://bit.ly/r-pharma-2023\nConnect and/or send me a DM for a follow up question or catch up\n\nLinkedin: mayank-agrawal-7jan\nX (previously Twitter): mayank7jan\nMastodon: mayank7j"
+    "text": "Thank you\n\nSlides available on GitHub Pages at https://bit.ly/r-pharma-2023\nQuarto presentation code available on GitHub at https://bit.ly/github-r-pharma-2023\nConnect and/or send me a DM for a follow up question or catch up\n\nLinkedin: mayank-agrawal-7jan\nX (previously Twitter): mayank7jan\nMastodon: mayank7j"
   },
   {
     "objectID": "enhancing_workflow_efficiency_of_bio_stats.html#references---r-packages",
     "href": "enhancing_workflow_efficiency_of_bio_stats.html#references---r-packages",
     "title": "Enhancing Efficiency and Workflow of Bio Statistics Teams",
     "section": "References - R Packages",
-    "text": "References - R Packages\n\nshinyDashboard, bslib, bs4dash for standard dashboard template.\nrmarkdown and Quarto for parameterized reporting.\nrenv for package management in a R project.\nglue for interpreted string literals for dynamic reporting.\ncallr for separate r sessions.\nplumber for API creation.\nhttr2 for API calls.\npins for shareable secured publishing of data, models, and R objects\ntestthat, shinytest2 and shinyloadtest for testing.\ndplyr for data manipulation.\nggplot2, plotly and echarts4r for visualization.\nprofvis for code profiling and time estimation\n\n\n\nR Pharma 2023"
+    "text": "References - R Packages\n\nshinyDashboard, bslib, bs4dash for standard dashboard template.\nrmarkdown and Quarto for parameterized reporting.\nrenv for package management in a R project.\nglue for interpreted string literals for dynamic reporting.\ncallr for separate r sessions.\nplumber for API creation.\nhttr2 for API calls.\npins for shareable secured publishing of data, models, and R objects\ntestthat, shinytest2 and shinyloadtest for testing.\ndplyr for data manipulation.\nggplot2, plotly and echarts4r for visualization.\nprofvis for code profiling and time estimation\n\n\n\n\nR Pharma 2023"
   }
 ]
