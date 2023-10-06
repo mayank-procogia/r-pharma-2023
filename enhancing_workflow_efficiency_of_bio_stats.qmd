@@ -19,24 +19,37 @@ editor: visual
 self-contained: true
 ---
 
-## Hello there!
+## Phase 2 Trails
 
--   Background: Computer Science Engineer and MBA in Business Analytics.
--   Curious to learn.
--   Using R and R Shiny for 6+ years.
--   Designed, built and managed more than 40+ R Shiny applications and dashboards.
--   Built and led teams of 10+ R developers.
--   Trained 30+ colleagues on R from diverse backgrounds.
--   Extensive hands on experience on all flavors of R products - Shiny, R Markdowns, Quarto, and package development.
--   Working with [**ProCogia**](https://procogia.com/){target="_blank"}; an Official [full service partner](https://posit.co/certified-partners/){target="_blank"} with Posit.
+> A Phase 2 trial answers the question, "Does Drug X improve Disease Y?"
 
-![](data/logo_hi.png){.absolute bottom="2rem" right="0" height="200"}
+Phase 2 clinical trials assess the **safety** and **efficacy** of a new drug or drug combination for a specific medical condition. The main goal is to determine an appropriate dose and treatment regimen for Phase 3 testing. 
+
+Phase 2 trails are further divided into: 
+
+-   Phase 2a: These trials involve fewer patients, typically 100 to 300, and focus on 
+    -   **dose-response relationships**: How increasing dosage increments correlates to increase in response, and
+    -   **optimal dosing frequency**: The ideal schedule for administering a treatment to achieve the best results while minimizing side effects.
+-   Phase 2b: These trials are designed to rigorously test and evaluate the drug's effectiveness in treating, preventing, or diagnosing a disease.
+
+Phase 2 primarily assesses the **therapeutic effectiveness** in a specific patient population to determine if the drug may potentially benefit patients and warrant further study in a phase 3 trial. It is used to assess safety parameters for any adverse events that might have been missed in a particular patient group.
+
+
+-   Phase 2 clinical trials assess the **safety** and **efficacy** of a new drug or drug combination for a specific medical condition.
+-   **Goal**: Determine appropriate dose and treatment plan for Phase 3 testing.
+-   **Phase 2a**: Involves fewer patients, generally 100-300 patients and focuses on:
+    -   **dose-response relationships**: How increasing dosage increments correlates to increase in response, and
+    -   **optimal dosing frequency**: The ideal schedule for administering a treatment to achieve the best results while minimizing side effects.
+-   **Phase 2b**: Rigorously assesses drug's effectiveness in disease treatment, prevention, or diagnosis.
+-   Assess **therapeutic effectiveness** in a specific patient group for potential Phase 3 study.
+-   Also used to assess and review safety parameters for potential adverse events that might have been missed in a particular patient group.
+
 
 ------------------------------------------------------------------------
 
-## Current Challenges
+## Previous CC
 
-Clinical Trails are often complex and time consuming with repeated similar workflow steps for each new variation of the trail.
+are often complex and time consuming with repeated similar workflow steps for each new variation of the trail.
 
 ::: columns
 ::: {.column width="50%"}
@@ -123,6 +136,12 @@ resulting in
     -   Ensure commits are linked with respective issues for traceability during testing.
 -   A picture speaks a thousand words. If it can be explained with a **screenshot**, don't shy away.
 -   Establish clear requirements to expedite implementation, with developer input on the overall app workflow.
+
+------------------------------------------------------------------------
+
+## Why Shiny?
+
+-   
 
 ------------------------------------------------------------------------
 
