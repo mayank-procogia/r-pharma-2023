@@ -109,6 +109,6 @@
     "href": "enhancing_workflow_efficiency_of_bio_stats.html#references---r-packages",
     "title": "Enhancing Efficiency and Workflow of Bio Statistics Teams",
     "section": "References - R Packages",
-    "text": "References - R Packages\n\nshinyDashboard, bslib, bs4dash for standard dashboard template.\nrmarkdown and Quarto for parameterized reporting.\nrenv for package management in a R project.\nglue for interpreted string literals for dynamic reporting.\ncallr for separate r sessions.\nplumber for API creation.\nhttr2 for API calls.\npins for shareable secured publishing of data, models, and R objects\ntestthat, shinytest2 and shinyloadtest for testing.\ndplyr for data manipulation.\nggplot2, plotly and echarts4r for visualization.\nprofvis for code profiling and time estimation\n\n\n\nR Pharma 2023"
+    "text": "References - R Packages\n\nshinyDashboard, bslib, bs4dash for standard dashboard template.\nrmarkdown and Quarto for parameterized reporting.\nrenv for package management in a R project.\nglue for interpreted string literals for dynamic reporting.\ncallr for separate r sessions.\nplumber for API creation.\nhttr2 for API calls.\npins for shareable secured publishing of data, models, and R objects\ntestthat, shinytest2 and shinyloadtest for testing.\ndplyr for data manipulation.\nggplot2, plotly and echarts4r for visualization.\nprofvis for code profiling and time estimation\n\n\n\n\nR Pharma 2023"
   }
 ]

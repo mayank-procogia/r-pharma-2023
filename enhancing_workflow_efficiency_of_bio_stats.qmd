@@ -9,6 +9,7 @@ date: '2023-10-27'
 date-format: full
 format: 
   revealjs:
+    logo: data/procogia_logo_minimal.png
     footer: "R Pharma 2023"
     smaller: true
     slide-number: true
