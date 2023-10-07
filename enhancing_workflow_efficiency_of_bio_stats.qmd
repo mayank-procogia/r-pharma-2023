@@ -75,32 +75,27 @@ resulting in
 
 ------------------------------------------------------------------------
 
-## Solution
+## Meeting the Challenges
 
-**Empowering Biostatisticians with R Shiny suite of applications**
+**Empowering Biostatisticians with discipline and the right set of tools.**
 
 ::: incremental
 -   Collaborated with Biostats to understand their pain points and challenges.
--   Developed a R Shiny application for Phase 2 trails of [dosage simulation]{style="text-decoration:underline"}.
--   Fully scaled through an iterative process of Agile development and feedback.
--   Created multiple R Shiny apps targetted to specific workflows.
--   Developed an ecosystem of Biostatistics R Shiny applications.
--   Automated and improved reporting.
--   Enhanced workflow efficiency and productivity among biostats team.
+-   An operational framework rooted in **Agile development** methodology, with a focus on **empowering Biostats** at its core.
+-   Enhanced workflow efficiency, reproducibility and productivity among the biostats team.
+    -   Reproducible workflows with RStudio Projects, Git, `R`, `Shiny`, `renv` and `CRAN` packages.
+    -   Scalable applications built with Software Engineering principles. 
+    -   Improved automated interactive reporting.
+    -   Automated testing framework for validated analysis results.
+-   The framework operated like a well-oiled machine, effectively engaging Biostats with discipline and empowering them with new tools in the expanding ecosystem.
+
 :::
 
-![](data/logo_route.png){.absolute bottom="4rem" right="0" height="175"}
-
 ------------------------------------------------------------------------
 
-## What was the journey to success?
+## Getting Started
 
-![](data/img_car_journey.jpg){fig-align="center"}
-
-------------------------------------------------------------------------
-
-## Migration Process Steps
-
+::: incremental
 -   Define scope of each process.
 -   Document [repetition rate]{style="text-decoration:underline"}, [importance]{style="text-decoration:underline"}, and [time investment]{style="text-decoration:underline"} for each work request.
 -   Identify the most time-consuming, yet simplest workflow.
@@ -108,127 +103,60 @@ resulting in
     -   Showcase a demo with the smallest workflow.
     -   This aids leaders in visualizing the impact of approval.
 -   Integrate workflows incrementally from small to large.
+-   Continuously improve process through rapid iterations, responding to user feedback, ideas and feature requests.
 
-![](data/logo_migration.png){.absolute bottom="6rem" right="0" height="250"}
+:::
 
-------------------------------------------------------------------------
-
-## Why Shiny?
-
--   Helps to build interactive web apps straight from R.
--   Shiny offers dynamic filtering, enabling instant analysis and visualization of data.
--   Shiny is compatible for generating [Tables, Listings, and Graphs]{style="text-decoration:underline"} (TLGs).
--   Enables efficient visualization of complex clinical trial data.
--   Allows for easy exploration of various dosage scenarios.
--   Supports seamless collaboration among trial stakeholders.
--   Enables real-time updates, crucial for adapting to evolving trial needs.
--   Its interactive features enhance decision-making and adaptability for evolving trial needs in Phase 2 trials.
--   Shiny has a quick to moderate learning curve.
-
-![](data/question.png){.absolute bottom="3rem" right="0" height="175"}
+![](data/logo_migration.png){.absolute bottom="3rem" right="0" height="175"}
 
 ------------------------------------------------------------------------
 
-## Principles of Application Design
+## Framework Principles
 
-::: fragment
+::: incremental
 -   Showcase early application design outlines using [draw.io](draw.io){target="_blank"} for UI layout prototyping.
-:::
-
-::: fragment
--   Establish a standard application template layout using either [Shiny Dashboard](https://rstudio.github.io/shinydashboard/){target="_blank"}, [bslib](https://rstudio.github.io/bslib/){target="_blank"} and/or [bs4Dash](https://rinterface.github.io/bs4Dash/index.html){target="_blank"}.
-    -   Create custom R function wrappers based on organization theme and color layout.
-    -   Re-use the template for new builds and ideas to maintain consistency and coherence.
-
-:::
-::: fragment
--   Define the **flow of reactivity** for the overall application/dashboard.
-    -   **Waterfall Reactivity Model**.
-    -   Avoid **Reactivity Spaghetti Mess**
-    -   Leverage reactive dynamic UI elements based on user input to enhance interactivity and responsiveness.
-
-:::
-
-------------------------------------------------------------------------
-
-## Principles of Application Design
-
-::: fragment
--   Create smaller, independent **Proof of Concepts (POCs)** for new feature requests.
-:::
-
-::: fragment
+-   Invest time to establish a standard application template layout for the ecosystem with the organizational color scheme.
+-   Create smaller, independent [Proof of Concepts]{style="text-decoration:underline"} (POCs) for new feature requests.
+-   Define the flow of reactivity for the overall application.
 -   Prioritize [user-friendliness]{style="text-decoration:underline"}: if it's not intuitive, it won't be used.
-    -   Set default selections for input widgets to make application exploration and understanding easier for users.
-    -   Incorporate tooltips, notifications, sectional write-ups and clear instructions to guide users in using the application.
-
-:::
-::: fragment
--   Facilitate [Consistent Reporting]{style="text-decoration:underline"}:
-    -   Utilize [parameterized Markdown/Quarto]{style="text-decoration:underline"} reports for dynamic MS Word report generation within the application.
-    -   Adhere to the organization's document template for uniformity in reporting.
-    -   Ensure each page or process has a predefined standard write-up with dynamic bits/sections based on simulation calculations.
+-   Prioritize [user-requests]{style="text-decoration:underline"} based on need, impact, time, effort and complexity.
+-   Enable [consistent reporting]{style="text-decoration:underline"} with parameterized Markdown/Quarto for dynamic MS Word reports, following organizational templates.
+-   Streamline workflow by adopting standard coding principles and agile project management.
 
 :::
 
 ------------------------------------------------------------------------
 
-## Streamline Workflow
+## Tools Selection
 
-::: columns
-::: {.column width="70%"}
-::: fragment
--   Use RStudio Projects
-:::
-::: fragment
--   Version Control with Git
-    -   Use Issues, Pull Requests and Connected Commits for efficient and effortless parallel development.
-    -   A picture speaks a thousand words. If it can be explained with a **screenshot**, don't shy away.
-
-:::
-::: fragment
--   Organize your project structure
-    -   Group related files together for easy navigation.
-    -   Create, adopt and enforce a standard development template for easier developer onboarding.
-    -   Have a project template repository for initial cloning.
+::: incremental
+-   `Shiny` for building interactive web apps straight from R.
+    -   Enhanced collaboration with Biostats in `R`; their preferred language for analysis and visualization of complex clinical trial data.
+    -   Seamless integration of [Tables, Listings, and Graphs]{style="text-decoration:underline"} (TLGs).   
+    -   Enabled real-time updates with quick release cycles, crucial for adapting to evolving trial needs.
+    -   Enhanced decision-making thru interactive tools.
+-   `renv` as a package management tool to ensure reproducibility across the team and environments.
+    -   `CRAN` published and maintained packages to ensure accurate and consistent results.
 
 :::
-:::
-
-::: {.column width="30%"}
-::: fragment
-![](data/ss_rstudio_dir_tree.png){fig-align="center"}
-:::
-:::
-:::
-
-------------------------------------------------------------------------
-
-## Ensuring Reproducibility
-
--   Leverage package management tools
-    -   Utilize [`renv`](https://rstudio.github.io/renv/articles/renv.html){target="_blank"} or [`packrat`](https://github.com/rstudio/packrat){target="_blank"} to manage package dependencies.
-    -   Provides a controlled environment for your project.
-    -   Ensure reproducibility and minimize version conflicts.
--   Rely on packages published and actively maintained on **CRAN** for a validated R environment.
--   Establish unit tests for all functions used to ensure accurate and consistent results.
--   Invest time to create an in-depth GitHub ReadMe with the sections **Project Overview**, **Getting Started**, **User Application Flow and Usage**, **Key Programming Concept Implemented** (if any) and **Developer Guide** providing comprehensive project reproducibility instructions.
 
 ------------------------------------------------------------------------
 
 ## Enhancing Scalability
 
--   Implement **modularization** and **functional programming** for a **plug-and-play** development format across applications.
+::: incremental
+-   Implement **modularization** and **functional programming** for a [**plug-and-play**]{style="text-decoration:underline"} development format across applications.
 -   Enable multiple studies to be added concurrently using standard **git branching strategies**, involving multiple concurrent developers.
--   **Async Programming**: Evaluate longer simulations in a **separate R process** preventing app performance issues.
-    -   Few R packages to aid this are: [callr](https://github.com/r-lib/callr/){target="_blank"}, [mirai](https://github.com/shikokuchuo/mirai){target="_blank"}, [crew](https://github.com/wlandau/crew){target="_blank"}, [coro](https://github.com/r-lib/coro){target="_blank"}, [future](https://github.com/HenrikBengtsson/future){target="_blank"} and [promises](https://github.com/rstudio/promises/){target="_blank"}
+-   [**Async Programming**]{style="text-decoration:underline"}: Evaluate longer simulations in a **separate R process** preventing app performance issues.
 -   Take a step further and deploy simulation functions as internal APIs with **Plumber**.
 -   Write your **custom JavaScript and R bindings** for implementing unique feature requests.
 -   Approach feature requests as a blend of **web development**, **software engineering**, and **R development**.
 
+:::
+
 ------------------------------------------------------------------------
 
-## Utilize Automated Testing
+## Ensuring Reproducibility with Automated Testing
 
 ::: columns
 ::: {.column width="50%"}
@@ -262,45 +190,21 @@ resulting in
 
 ------------------------------------------------------------------------
 
-## Common Application Features
+## Enhancing Adoption
 
-::: fragment
--   Add and execute multiple simulations simultaneously.
--   Compare similar (static and interactive) graphs side by side for comprehensive analysis.
-:::
-::: fragment
--   **Downloadable** visualization, simulation calculations, and dynamic FDA submission format reports across the application.
--   Display mathematical equations for each study using **LaTeX**.
-:::
-::: fragment
--   Receive **email notifications** for progress updates along with attached reports.
--   Receive **notifications** upon process completion.
-:::
-::: fragment
--   Introduce **Helper Tabs** for - Application Information, Usage Manual, Release Notes, System Information, User Feedback and Contact Business Lead - all through the application.
-:::
-
-------------------------------------------------------------------------
-
-## Enhancing User Adoption
-
-::: fragment
--   Create multiple **GIFs** showcasing the application layout and user flow.
-    -   Include them in the Git readme and announcement emails.
--   Create detailed application interaction **user manuals** with screenshots and highlights for each step.
-
-:::
-::: fragment
--   Conduct regular (quarterly) **training sessions** to provide guidance, answer questions, and assist users with new features.
+::: incremental
+-   Invest time to create an in-depth GitHub ReadMe providing comprehensive project reproducibility instructions.
+-   Include application workflow [**GIFs**]{style="text-decoration:underline"} in announcement emails.
+-   Create detailed application interaction [**user manuals**{style="text-decoration:underline"} with screenshots and highlights for each step.
+-   Conduct regular (quarterly) [**training sessions**]{style="text-decoration:underline"} to provide guidance, answer questions, and assist users with new features.
     -   Record and share them for easier re-visit.
-
-:::
-::: fragment
 -   Continuously engage user base for better ROI and on boarding.
 -   Prioritize most requested user features for each sprint.
+-   Have a team of [Application Champions]{style="text-decoration:underline"} available for queries/requests.
+
 :::
 
-![](data/logo_user_team.png){.absolute bottom="5rem" right="0" height="200"}
+![](data/logo_user_team.png){.absolute bottom="8rem" right="0" height="150"}
 
 ------------------------------------------------------------------------
 
@@ -323,11 +227,11 @@ resulting in
 -   [rmarkdown](https://github.com/rstudio/rmarkdown){target="_blank"} and [Quarto](https://quarto.org/docs/computations/r.html){target="_blank"} for parameterized reporting.
 -   [renv](https://rstudio.github.io/renv/articles/renv.html){target="_blank"} for package management in a R project.
 -   [glue](https://glue.tidyverse.org/){target="_blank"} for interpreted string literals for dynamic reporting.
--   [callr](https://github.com/r-lib/callr/){target="_blank"} for separate r sessions.
+-   Async programming: [callr](https://github.com/r-lib/callr/){target="_blank"}, [mirai](https://github.com/shikokuchuo/mirai){target="_blank"}, [crew](https://github.com/wlandau/crew){target="_blank"}, [coro](https://github.com/r-lib/coro){target="_blank"}, [future](https://github.com/HenrikBengtsson/future){target="_blank"} and [promises](https://github.com/rstudio/promises/){target="_blank"}.
 -   [plumber](https://github.com/rstudio/plumber/){target="_blank"} for API creation.
 -   [httr2](https://github.com/r-lib/httr2/){target="_blank"} for API calls.
 -   [pins](https://github.com/rstudio/pins-r/){target="_blank"} for shareable secured publishing of data, models, and R objects
 -   [testthat](https://github.com/r-lib/testthat/){target="_blank"}, [shinytest2](https://github.com/rstudio/shinytest2/){target="_blank"} and [shinyloadtest](https://github.com/rstudio/shinyloadtest/){target="_blank"} for testing.
 -   [dplyr](https://github.com/tidyverse/dplyr/){target="_blank"} for data manipulation.
 -   [ggplot2](https://github.com/tidyverse/ggplot2){target="_blank"}, [plotly](https://github.com/plotly/plotly.R){target="_blank"} and [echarts4r](https://github.com/JohnCoene/echarts4r){target="_blank"} for visualization.
--   [profvis](http://rstudio.github.io/profvis/){target="_blank"} for code profiling and time estimation
+-   [profvis](http://rstudio.github.io/profvis/){target="_blank"} for code profiling and time estimation.
