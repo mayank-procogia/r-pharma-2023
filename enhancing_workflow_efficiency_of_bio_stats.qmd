@@ -195,7 +195,7 @@ resulting in
 ::: incremental
 -   Invest time to create an in-depth GitHub ReadMe providing comprehensive project reproducibility instructions.
 -   Include application workflow [**GIFs**]{style="text-decoration:underline"} in announcement emails.
--   Create detailed application interaction [**user manuals**{style="text-decoration:underline"} with screenshots and highlights for each step.
+-   Create detailed application interaction [**user manuals**]{style="text-decoration:underline"} with screenshots and highlights for each step.
 -   Conduct regular (quarterly) [**training sessions**]{style="text-decoration:underline"} to provide guidance, answer questions, and assist users with new features.
     -   Record and share them for easier re-visit.
 -   Continuously engage user base for better ROI and on boarding.
